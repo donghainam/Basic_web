@@ -1,0 +1,121 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+    .heading-main-box{
+        transform: translate(-35%, -50%);
+    }
+}
+
+/* Small tablet to big tablet from 768px to 1023px */
+@media only screen and (max-width:1023px){
+    .logo{
+        width: 100px;
+        margin-left: 40px;
+    }
+
+    .main.nav{
+        margin-top: 40px;
+        margin-right: 15px;
+    }
+
+    .main-nav li{
+        margin-right: 10px;
+    }
+
+    .heading-main-box{
+        transform: translate(-20%, -50%);
+    }
+
+    .products-section .button{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .product-box{
+        width: 95%;
+    }
+
+    h3{
+        font-size: 90%;
+    }
+
+    .product-box ul li{
+        margin-left: 5%;
+    }
+
+    .product-box .small-icons{
+        margin-right: 5px;
+    }
+
+    .social-icons li{
+        margin-left: 10px;
+    }
+
+    .information i {
+        display: block;
+    }
+
+    .information li{
+        font-size: 14px;
+    }
+}
+/* Small phone to small tablets */
+/* @media only screen and (max-width:767px){
+
+} */
+/* Small phone from 0 to 480px*/
+@media only screen and (max-width:590px){
+    .col{
+        width: 100%;
+    }
+    .main-nav{
+        visibility: hidden;
+    }
+    .logo{
+        width: 100px;
+        margin-left: 41%;
+    }
+    .h1{
+        word-spacing: 2px;
+        font-size: 50%;
+    }
+    .picture-title{
+        font-size: 25px;
+    }
+    .product-box{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .product-box ul li{
+        margin-left: 25%;
+    }
+    .testimonials-section .row .col{
+        margin-bottom: 50px;
+    }
+    figcaption{
+        visibility: hidden;
+    }
+    form{
+        width: 80%;
+        margin-left: 10%;
+    }
+    label{
+        margin-left: 15%;
+    }
+    .information{
+        margin-top: 20px;
+        text-align: center;
+    }
+    /* chinhr sua font thu cong*/
+    .information li{
+        font-size: 20px;
+    }
+    .social-icons{
+        text-align: center;
+    }
+    .col .button{
+        margin-left: 23%;
+    }
+}
